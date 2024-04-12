@@ -1,0 +1,100 @@
+body, html {
+    height:100%;
+    margin:0;
+}
+
+#header_div {
+    height:30%;
+    background-color:yellow;
+}
+
+    #header_div img {
+        height:100%;
+        width:100%;
+        object-fit:cover;
+    }
+
+
+#body_div {
+    height:60%;
+    background-color:green;
+
+    width:100%;
+    display:flex;
+}
+
+#footer_div {
+    height:10%;
+    background-color:gainsboro;
+
+    text-align:center;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+
+#margin_left {
+
+    width:5%;
+    background-color:pink;
+
+    float:left;
+
+}
+
+#margin_right {
+
+    width:5%;
+    background-color:pink;
+
+    float:right;
+
+}
+
+#card1 {
+
+    width:30%;
+    background-color:orange;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+
+    #card1 img {
+        height:100%;
+        width:100%;
+        object-fit:contain;
+    }
+
+
+#card2 {
+
+    width:30%;
+    background-color:aqua;
+
+}
+
+    #card2 img {
+        height:100%;
+        width:100%;
+        object-fit:contain;
+    }
+
+
+
+#card3 {
+
+    width:30%;
+    background-color:lavender;
+
+}
+
+    #card3 img {
+        height:100%;
+        width:100%;
+        object-fit:contain;
+    }
